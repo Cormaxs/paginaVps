@@ -15,6 +15,7 @@ font-family: "PT Sans", sans-serif;
 }
 
 p,span{
+    
     font-size: 1em;
     letter-spacing: 1.2px;
     font-family: "roboto", sans-serif;
@@ -98,8 +99,9 @@ header{
 }
 
 #texto{
+    
     margin: 30px auto;
-    width:65%;
+    width:85%;
 }
 #info > h2{
     font-size: 1.6em;
@@ -107,7 +109,7 @@ header{
 #texto > p{
    margin: 5px 0 0 0;
     font-size: 19px;
-    text-align: justify;
+    text-align:initial;
   word-spacing: 1%;
 }
 
@@ -138,7 +140,7 @@ header{
 #cubosInfo div > p{
     margin: auto;
     width: 95%;
-text-align: justify;
+    text-align: left;
 padding: 0 6px 0 6px;
 }
 #cubosInfo div > button{
@@ -219,7 +221,7 @@ padding: 0 6px 0 6px;
 #rectangulos > p{
     margin:0 auto;
     padding: 20px 0 20px 0;
-    text-align: justify;
+    text-align: left;
     font-size: 1em;
    width: 75%;
    color: #000000;
